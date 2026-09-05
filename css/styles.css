@@ -1,0 +1,96 @@
+:root {
+  --navy: #2f39a9;
+  --blue: #2e6fa0;
+  --teal: #49a4bb;
+  --mint: #15d8b3;
+  --ink: #1a1d3a;
+  --muted: #5a6285;
+  --bg: #ffffff;
+  --soft: #f2f5fb;
+  --radius: 16px;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --max-width: 72rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--navy);
+  line-height: 1.25;
+  margin: 0 0 var(--space-2);
+}
+
+p {
+  margin: 0 0 var(--space-2);
+  color: var(--ink);
+}
+
+a {
+  color: var(--blue);
+}
+
+a:active {
+  color: var(--teal);
+}
+
+header,
+main,
+footer {
+  margin-inline: auto;
+  max-width: var(--max-width);
+  padding-inline: var(--space-2);
+}
+
+section {
+  padding-block: var(--space-3);
+}
+
+.card {
+  background: var(--soft);
+  border-radius: var(--radius);
+  padding: var(--space-2);
+}
+
+button,
+a {
+  min-height: 44px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 48rem) {
+  body {
+    font-size: 1.0625rem;
+  }
+
+  header,
+  main,
+  footer {
+    padding-inline: var(--space-3);
+  }
+
+  section {
+    padding-block: var(--space-4);
+  }
+}
