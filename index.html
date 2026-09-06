@@ -8,8 +8,20 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-    <header>
-      <p>Osher</p>
+    <header class="site-header">
+      <div class="nav-bar">
+        <a class="brand" href="#home">Osher</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+          <a class="cta" href="https://wa.me/?text=Hello%20Osher%2C%20I%20want%20to%20know%20more%20about%20personalized%203D%20figures" target="_blank" rel="noopener">Chat with Us</a>
+        </nav>
+      </div>
     </header>
     <main>
       <section id="home" aria-label="Home"></section>
