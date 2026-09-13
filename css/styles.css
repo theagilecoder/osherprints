@@ -232,9 +232,11 @@ section {
   text-align: center;
 }
 
-.hero-figure p {
-  margin: 0;
-  color: inherit;
+.hero-figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: inherit;
 }
 
 .chars-intro {
