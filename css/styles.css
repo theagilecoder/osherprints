@@ -239,6 +239,24 @@ section {
   border-radius: inherit;
 }
 
+.vision {
+  margin: 0 0 var(--space-3);
+  padding: var(--space-3);
+  border-top: 4px solid var(--mint);
+  border-radius: var(--radius);
+  background: var(--soft);
+  text-align: center;
+}
+
+.vision p {
+  margin: 0 auto;
+  max-width: 56rem;
+  color: var(--navy);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 .chars-intro {
   margin: 0 0 var(--space-2);
   color: var(--muted);
@@ -507,6 +525,14 @@ img {
 
   .hero-figure {
     min-height: 16rem;
+  }
+
+  .vision {
+    padding: var(--space-4) var(--space-3);
+  }
+
+  .vision p {
+    font-size: 1.5rem;
   }
 
   .chars-grid {
