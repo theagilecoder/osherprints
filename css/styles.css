@@ -340,6 +340,15 @@ section {
   margin: 0;
 }
 
+.process-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
 .process-badge {
   display: inline-flex;
   align-items: center;
