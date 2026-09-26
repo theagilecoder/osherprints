@@ -362,44 +362,6 @@ section {
   font-size: 1.125rem;
 }
 
-.gallery-intro {
-  margin: 0 0 var(--space-2);
-  color: var(--muted);
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-2);
-}
-
-.gallery-item {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-1);
-  text-align: center;
-}
-
-.gallery-tile {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
-  background: var(--blue);
-  color: #fff;
-  font-weight: 800;
-  font-size: 1.5rem;
-}
-
-.gallery-item figcaption {
-  font-weight: 700;
-  color: var(--ink);
-}
-
 .price-intro {
   margin: 0 0 var(--space-2);
   color: var(--muted);
@@ -552,10 +514,6 @@ img {
 
   .chars-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .gallery-grid {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .quote-grid {
