@@ -388,6 +388,13 @@ section {
   margin: 0;
 }
 
+.price-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
 .price-card ul {
   margin: 0;
   padding-left: 1.25rem;
