@@ -105,6 +105,14 @@ section {
   min-width: 44px;
 }
 
+.brand img {
+  display: block;
+  height: 2.5rem;
+  width: auto;
+  max-width: 10rem;
+  object-fit: contain;
+}
+
 .nav-toggle {
   margin-left: auto;
   min-height: 44px;
